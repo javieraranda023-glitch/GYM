@@ -1,0 +1,11 @@
+GYMTRACK – INSTALACIÓN COMO APP EN ANDROID
+
+La carpeta está preparada como PWA instalable.
+
+IMPORTANTE: Android/Chrome solo muestra “Instalar app” cuando la web se sirve desde HTTPS (o localhost). Abrir index.html como archivo local permite usarla, pero normalmente no permite instalarla como PWA.
+
+Método recomendado:
+1. Sube esta carpeta a un hosting estático con HTTPS (por ejemplo GitHub Pages, Netlify o Cloudflare Pages).
+2. Abre la URL en Chrome en tu Xiaomi.
+3. Menú ⋮ → “Instalar app” o “Añadir a pantalla de inicio”.
+4. Se abrirá como una aplicación independiente y los datos de GymTrack se guardarán en el móvil.
